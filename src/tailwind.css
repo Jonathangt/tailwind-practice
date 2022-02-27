@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilitis;
+
+@layer components {
+    .btn {
+        @apply inline-block w-full px-5 py-3 rounded-lg shadow-lg 
+        font-semibold text-sm text-white bg-blue-700 sm:w-auto md:px-10 
+        md:py-4 md:text-lg hover:text-white hover:bg-blue-800 focus:outline-none focus:ring focus:ring-offset-2
+        focus:ring-blue-800 focus:ring-opacity-50 active:bg-blue-900;
+    }
+}
